@@ -1,0 +1,45 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/dicephp/cache"
+    }
+  ],
+  "name": "dicephp/application",
+  "description": "Dice PHP is a framework for creating applications which are easy to scale",
+  "keywords": [
+    "php",
+    "framework",
+    "dice"
+  ],
+  "homepage": "https://dicephp.github.io/",
+  "type": "dicephp-framework",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/dicephp/application/issues",
+    "forum": "https://stackoverflow.com/questions/tagged/dicephp",
+    "wiki": "https://github.com/dicephp/application/wiki",
+    "source": "https://github.com/dicephp/application"
+  },
+  "require": {
+    "php": ">=7.0",
+    "dicephp/cache": "dev-master"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.3"
+  },
+  "suggest": {
+    "ezyang/htmlpurifier": "dev-master",
+    "fortawesome/font-awesome": "^4.6",
+    "predis/predis": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "extra": {
+    "writePermission": [
+      "tmp"
+    ]
+  }
+}
